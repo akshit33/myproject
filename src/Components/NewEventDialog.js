@@ -5,7 +5,7 @@ import Slide from "@material-ui/core/Slide";
 
 import NewEventForm from "./NewEventForm";
 import { useHistory } from "react-router-dom";
-import About from "./About";
+//import About from "./About";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;

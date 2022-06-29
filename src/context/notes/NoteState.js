@@ -62,8 +62,19 @@ const deleteNote=(id)=>{
 }
 
 
-/*//Edit a NOte
-const editEvent=()=>*/
+//Edit a Note
+const editEvent = (id,title,description ,tag )=>{
+
+  for(let index= 0; index< notes.length ; index++){
+    const element = notes[index];
+    if(element.id === id ){
+      element.title= title;
+      element.description = description  ;
+      element.tag = tag ; 
+    }
+  }
+
+}
 
 
 
